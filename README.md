@@ -27,17 +27,19 @@ Mentoree_uuid (UUID from the member object of the mentoree)
 **Step 5:** Use the members' objects to generate mentorships following this model:
 Every mentoree is assigned by order of registered date ( first joined is first assigned ). Mentorees will be assigned evenly to mentors following the registered date of the mentors.
 For example: given the following input with 2 mentors and 5 mentorees
-- Mentor name & Mentor registered date
-- Colin Matthews & 2001-03-18T11:00:29.000Z
-- Depp Williams & 2002-03-19T10:07:46.000Z
+|Mentor name | Mentor registered date |
+|------------|------------------------|
+|Colin Matthews | 2001-03-18T11:00:29.000Z|
+|Depp Williams | 2002-03-19T10:07:46.000Z|
 
 
-- Mentoree name & Mentoree registered date
-- John Davis & 2005-06-20T10:05:29.000Z
-- Patrick Kart & 2002-01-09T03:06:56.000Z
-- Emma Themp & 2010-02-07T05:04:23.000Z
-- Will Burt & 2011-04-08T06:02:12.000Z
-- Jack Riep & 2020-12-30T00:01:10.000Z
+|Mentoree name | Mentoree registered date|
+|--------------|------------------------|
+|John Davis | 2005-06-20T10:05:29.000Z|
+|Patrick Kart | 2002-01-09T03:06:56.000Z|
+| Emma Themp | 2010-02-07T05:04:23.000Z|
+| Will Burt | 2011-04-08T06:02:12.000Z|
+| Jack Riep | 2020-12-30T00:01:10.000Z|
 
  The mentorships that will be generated should be in this order:
 - Patrick kart to Colin Matthews
